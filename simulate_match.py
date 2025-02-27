@@ -1,7 +1,7 @@
 import random
 import time
 
-# Define squads with substitutes
+# The dictionary which contains the current squad lists for Manchester United and Manchester City.
 teams = {
     "Manchester United": [
         "Onana", "Dalot", "Varane", "Martinez", "Shaw", "Casemiro", "Eriksen", "Fernandes", "Antony", "Rashford", "Hojlund",

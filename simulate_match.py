@@ -64,10 +64,10 @@ def make_substitution(team, minute):
 
 def simulate_half(start_minute, end_minute, added_time):
     for minute in range(start_minute, end_minute + added_time + 1):
-        time.sleep(1)  # Increased wait time for more realistic pacing (1 second per minute)
+        time.sleep(1)  
         event_chance = random.random()
         
-        if event_chance < 0.03:  # Goal scored (lower chance)
+        if event_chance < 0.03:  # Goal scored 
             team = random.choice(list(teams.keys()))
             scorer = random.choice(teams[team][:11])
             score[team] += 1
